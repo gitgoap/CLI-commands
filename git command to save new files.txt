@@ -1,0 +1,43 @@
+git init
+git add .
+git status
+git commit -m "message"
+git push -u -f origin master
+
+------------------------------------------------------
+* Very Important
+
+
+
+
+---------------------------------------------------------
+From Rahul Singh Video 1
+
+1. To see changes done (saved):git diff 11:02
+2. To make a branch and get into it: git checkout -b branch-name 13:00
+3. To again get into main branch: git checkout master
+4. To get info about all branches: git log 15:29
+5. To upadte the repo: git pull 16:30
+6. To know the github link of repo or origin link: git remote -v 21:34
+Note: If a branch is made and pushed for raising PR then we always have to go to github to push the changes from that branch to main.
+7. To know what's in the folder:ls
+8. To make folder: mkdir foldername
+9. To open vscode while working on gitbash: code .
+10. To give git command after git log command and bash is stuck: press q untill cursor is seen
+11. To go to main dir: cd ..
+
+Note: To push from branch: git push origin branchname
+
+---------------------------------------------------------
+Rahul Singh Video 2 
+
+*1. To update the local repo as remote(forked) repo:  git pull <remote_name> <branch_name>
+             Eg- git pull origin main
+
+---------------------------------------------------------
+1. To revert all changes in a file: git checkout -- <filename>
+Eg- git checkout -- styles.css
+
+
+
+
