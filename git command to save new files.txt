@@ -17,7 +17,7 @@ From Rahul Singh Video 1
 2. To make a branch and get into it: git checkout -b branch-name 13:00
 3. To again get into main branch: git checkout master
 4. To get info about all branches: git log 15:29
-5. To upadte the repo: git pull 16:30
+5. To update the repo: git pull 16:30
 6. To know the github link of repo or origin link: git remote -v 21:34
 Note: If a branch is made and pushed for raising PR then we always have to go to github to push the changes from that branch to main.
 7. To know what's in the folder:ls
@@ -38,6 +38,8 @@ Rahul Singh Video 2
 1. To revert all changes in a file: git checkout -- <filename>
 Eg- git checkout -- styles.css
 
+* Note: For 'git pull' command: Suppose you have a repo in your local system which is 1 commit behind the original repo on GitHub then you add a new file abc.txt) and then you apply git pull command in this repo then it will only fetch the commit from original to local repo, it "won't delete the abc.txt file to update your local repo as original repo"
 
+If you want to make local repo same as original repo then best method is to clone the original repo.
 
 

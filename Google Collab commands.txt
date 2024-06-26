@@ -15,11 +15,12 @@ new_content = """transformers
 ml_collections
 fschat==0.2.20
 """
+------------------------------------------
+demo = "This is the content I want to write to the file." # Define the content to be written
+with open('/content/llm-attacks/demo.ipynb', 'w') as file:
+    file.write(demo) 
 
-# Open the file in write mode and replace the content
-with open(file_path, 'w') as file:
- file.write(new_content)
-
+----------------------------------------
 # Verify the changes by reading the file again
 with open(file_path, 'r') as file:
  updated_contents = file.read()
