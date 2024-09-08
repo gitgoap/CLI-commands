@@ -1,6 +1,8 @@
 -------------------------Bash command(Using WSL)---------------------------
 Some command like ls, etc don't work in window's CMD but works in window's powershells
-====================<These were all covered in week 2.3 video>====================
+
+
+========================================================================
 
 1. pwd - prints working directory
 2. ls - list all directories in current dir

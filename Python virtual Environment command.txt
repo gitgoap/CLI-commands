@@ -1,0 +1,22 @@
+To create a virtual environment, commands for both with and without Anaconda installed (for Windows):
+
+======================================================
+
+
+
+With Anaconda:
+Create a virtual environment: conda create --name myenv
+Activate the virtual environment: conda activate myenv
+Install packages (e.g., numpy):conda install numpy
+To deactivate: conda deactivate
+
+-------------------------------------------------------
+
+
+
+Without Anaconda (using venv)
+
+Create a virtual environment: python -m venv myenv
+Activate the virtual environment: myenv\Scripts\activate
+Install packages (e.g., numpy): pip install numpy
+To deactivate a virtual environment: deactivate
