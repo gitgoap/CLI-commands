@@ -17,7 +17,7 @@ Some command like ls, etc don't work in window's CMD but works in window's power
            In powershell: "New-Item -Path "popup.html" -
            ItemType File"
 8. vi - vim command (can only use if vim IDE is installed) 
-9. mv - move file | mv file name path //Suppose we are desktop and destop contains one dir nmaed temp then path will be temp
+9. mv - move file | mv file name path //Suppose we are on desktop and destop contains one dir nmaed temp then path will be temp
 10. cp - Copy file | cp filename path or,
                      cp -r foldername path
 11. ls -a .. - To see hidden files
