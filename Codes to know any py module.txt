@@ -1,0 +1,26 @@
+To list all functions in a Python Module:
+import module_name
+print(dir(module_name))
+-------------------------------------------------
+
+To get detailed info about library in a module:
+help(module_name.function_name)
+------------------------------------------------
+
+
+Using Inspect:
+Inspect module provides more structed details about Modules
+
+import inspect
+print(inspect.signature(module_name.function_name))
+--------------------------------------------------
+
+
+Explore source code of module if available:
+import inspect
+print(inspect.getsource(module_name.function))
+-------------------------------------------------
+
+Read Doc:
+import module_name
+help(module_name)

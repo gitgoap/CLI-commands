@@ -4,6 +4,8 @@ git status
 git commit -m "message"
 git push -u -f origin master
 
+
+
 ------------------------------------------------------
 * Very Important
 
@@ -11,20 +13,23 @@ git push -u -f origin master
 
 
 ---------------------------------------------------------
-From Rahul Singh Video 1
+From Rahul Singh Video 1:https://youtu.be/X_2B46p_eyQ?feature=shared
 
-1. To see changes done (saved):git diff 11:02
-2. To make a branch and get into it: git checkout -b branch-name 13:00
-3. To again get into main branch: git checkout master
-4. To get info about all branches: git log 15:29
-5. To update the repo: git pull 16:30
-6. To know the github link of repo or origin link: git remote -v 21:34
+1. git diff :To see changes done (saved)
+2. git checkout -b branch-name  :To make a branch and get into it
+3. git checkout master :To again get into main branch
+4. git log :To get info about all branches
+5. git pull: To update the repo
+6. 
+
+7. ls :To know what's in the folder
+8. mkdir foldername :To make folder
+9. code . :To open vscode while working on gitbash
+10. press q untill cursor is seen :After given git command after "git log" command and bash is stuck
+11. cd .. :To go to main dir
+12. git remote -v :Verify Remote URL
+
 Note: If a branch is made and pushed for raising PR then we always have to go to github to push the changes from that branch to main.
-7. To know what's in the folder:ls
-8. To make folder: mkdir foldername
-9. To open vscode while working on gitbash: code .
-10. To give git command after git log command and bash is stuck: press q untill cursor is seen
-11. To go to main dir: cd ..
 
 Note: To push from branch: git push origin branchname
 
@@ -41,5 +46,13 @@ Eg- git checkout -- styles.css
 * Note: For 'git pull' command: Suppose you have a repo in your local system which is 1 commit behind the original repo on GitHub then you add a new file abc.txt) and then you apply git pull command in this repo then it will only fetch the commit from original to local repo, it "won't delete the abc.txt file to update your local repo as original repo"
 
 If you want to make local repo same as original repo then best method is to clone the original repo.
+
+
+----------------------------------------------------------------
+git push --set-upstream origin main: Sets the upstream for the main branch and pushes it for the first time.
+
+git push: Pushes changes to the remote branch that is already set as the upstream branch.
+
+git push -u -f origin master: Forcefully pushes changes to the master branch and sets it as the upstream branch (use with caution).
 
 

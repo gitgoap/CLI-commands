@@ -20,3 +20,5 @@ Create a virtual environment: python -m venv myenv
 Activate the virtual environment: myenv\Scripts\activate
 Install packages (e.g., numpy): pip install numpy
 To deactivate a virtual environment: deactivate
+
+Note: myenv is alias, any other name can be used instead indicating that a particular py version is installed there.
